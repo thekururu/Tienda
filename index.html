@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🛒 Tienda</h1>
+
+  <div class="producto" onclick="abrirModal('SU-57', '14,000,000')">
+    <h2>SU-57</h2>
+    <p class="precio">💰 14,000,000</p>
+  </div>
+
+  <div class="producto" onclick="abrirModal('Boeing 747', '55,000,000')">
+    <h2>Boeing 747</h2>
+    <p class="precio">💰 55,000,000</p>
+  </div>
+
+  <div class="producto" onclick="abrirModal('Space Shuttle', '88,000,000')">
+    <h2>Space Shuttle</h2>
+    <p class="precio">💰 88,000,000</p>
+  </div>
+
+  <div class="producto" onclick="abrirModal('G91', '120,000,000')">
+    <h2>G91</h2>
+    <p class="precio">💰 120,000,000</p>
+  </div>
+
+  <div class="producto" onclick="abrirModal('Juno-C', '990,000,000')">
+    <h2>Juno-C</h2>
+    <p class="precio">💰 990,000,000</p>
+  </div>
+
+  <div class="producto" onclick="abrirModal('Empresa', '100,000')">
+    <h2>Empresa</h2>
+    <p class="precio">💰 100,000</p>
+  </div>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2 id="modalProducto"></h2>
+      <p id="modalPrecio"></p>
+
+      <input id="usuario" placeholder="Nick de Discord">
+      <input id="id" placeholder="ID de Discord">
+
+      <button onclick="confirmar()">Enviar pedido</button>
+      <button class="cancelar" onclick="cerrarModal()">Cancelar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
