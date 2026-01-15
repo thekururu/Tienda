@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.producto {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.producto h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.precio {
+  color: #22c55e;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background: #020617;
+  padding: 20px;
+  border-radius: 14px;
+  width: 90%;
+  max-width: 400px;
+  margin: 10vh auto;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+}
+
+.cancelar {
+  background: #dc2626;
+}
